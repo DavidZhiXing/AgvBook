@@ -76,3 +76,39 @@ message TaskIncidental {
 }
 ```
 
+### 扩展消息
+目前的扩展手段是需要直接修改消息类，所谓的反模式：即对扩展关闭，对修改开放。
+- task支持cancel
+- message 支持crc校验
+- 支持异常状态
+- 任务类型支持扫码
+- 任务类型修订
+- 附加消息从string改为字典
+- 增加服务器时间
+- 支持事件报告
+- 发生时间，修改为开始时间和结束时间
+- 支持调度控制路径
+- 支持原车断电
+
+### 附录：
+crc设计方法之一：查表法
+``` c#
+public class Crc32{
+    // crc table
+    static uint32[] crcTable = {
+
+    }
+
+    public static uint32 GetCrc32(byte[] bytes)
+    {
+        uint32 crc = 0xffffffff;
+        for (int i = 0; i < bytes.Length; i++)
+        {
+            crc = (crc >> 8) ^ crcTable[(crc ^ bytes[i]) & 0xff];
+        }
+        return crc ^ 0xffffffff;
+    }
+}
+
+```
+
