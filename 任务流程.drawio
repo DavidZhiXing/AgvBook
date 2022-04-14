@@ -245,8 +245,13 @@
             <root>
                 <mxCell id="GTroSmMW7mxlCaIqo-ob-0"/>
                 <mxCell id="GTroSmMW7mxlCaIqo-ob-1" parent="GTroSmMW7mxlCaIqo-ob-0"/>
-                <mxCell id="GTroSmMW7mxlCaIqo-ob-5" value="" style="edgeStyle=none;html=1;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1" source="GTroSmMW7mxlCaIqo-ob-3" target="GTroSmMW7mxlCaIqo-ob-4">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="GTroSmMW7mxlCaIqo-ob-5" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1" source="GTroSmMW7mxlCaIqo-ob-3" target="GTroSmMW7mxlCaIqo-ob-19">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="535" y="205" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="627" y="205"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="GTroSmMW7mxlCaIqo-ob-7" value="" style="edgeStyle=none;html=1;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1" source="GTroSmMW7mxlCaIqo-ob-3" target="GTroSmMW7mxlCaIqo-ob-6">
                     <mxGeometry relative="1" as="geometry"/>
@@ -254,35 +259,49 @@
                 <mxCell id="GTroSmMW7mxlCaIqo-ob-3" value="是否存在[ 高处障碍物.config ]" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
                     <mxGeometry x="228" y="165" width="214" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="GTroSmMW7mxlCaIqo-ob-4" value="无防护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
-                    <mxGeometry x="535" y="175" width="120" height="60" as="geometry"/>
-                </mxCell>
                 <mxCell id="GTroSmMW7mxlCaIqo-ob-9" value="" style="edgeStyle=none;html=1;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1" source="GTroSmMW7mxlCaIqo-ob-6" target="GTroSmMW7mxlCaIqo-ob-8">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="GTroSmMW7mxlCaIqo-ob-6" value="读取配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
                     <mxGeometry x="275" y="315" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="GTroSmMW7mxlCaIqo-ob-11" value="" style="edgeStyle=none;html=1;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1" source="GTroSmMW7mxlCaIqo-ob-8" target="GTroSmMW7mxlCaIqo-ob-10">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="GTroSmMW7mxlCaIqo-ob-11" value="" style="edgeStyle=none;html=1;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="467" y="467" as="sourcePoint"/>
+                        <mxPoint x="627" y="467" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="619" y="467"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="GTroSmMW7mxlCaIqo-ob-13" value="" style="edgeStyle=none;html=1;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1" source="GTroSmMW7mxlCaIqo-ob-8" target="GTroSmMW7mxlCaIqo-ob-12">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="GTroSmMW7mxlCaIqo-ob-13" value="" style="edgeStyle=none;html=1;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1" source="GTroSmMW7mxlCaIqo-ob-8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="336.5620437956204" y="574.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="GTroSmMW7mxlCaIqo-ob-8" value="是否满足配置项配置的条件？&lt;br&gt;（范围，速度等）并且触发了&lt;br&gt;高位防护" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
+                <mxCell id="GTroSmMW7mxlCaIqo-ob-8" value="是否满足配置项配置的条件？&lt;br&gt;（范围，速度等" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
                     <mxGeometry x="203" y="418" width="264" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="GTroSmMW7mxlCaIqo-ob-10" value="无防护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
-                    <mxGeometry x="555" y="436" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="GTroSmMW7mxlCaIqo-ob-12" value="触发停车报警" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
-                    <mxGeometry x="277" y="575" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="GTroSmMW7mxlCaIqo-ob-15" value="" style="edgeStyle=none;html=1;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1" source="GTroSmMW7mxlCaIqo-ob-14" target="GTroSmMW7mxlCaIqo-ob-3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="GTroSmMW7mxlCaIqo-ob-14" value="自动状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
                     <mxGeometry x="275" y="61" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GTroSmMW7mxlCaIqo-ob-16" value="触发停车报警" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
+                    <mxGeometry x="277" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GTroSmMW7mxlCaIqo-ob-18" value="" style="edgeStyle=none;html=1;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1" source="GTroSmMW7mxlCaIqo-ob-17" target="GTroSmMW7mxlCaIqo-ob-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GTroSmMW7mxlCaIqo-ob-20" value="" style="edgeStyle=none;html=1;" edge="1" parent="GTroSmMW7mxlCaIqo-ob-1" source="GTroSmMW7mxlCaIqo-ob-17" target="GTroSmMW7mxlCaIqo-ob-19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GTroSmMW7mxlCaIqo-ob-17" value="是否收到下位机上传的&lt;br&gt;高处障碍信号" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
+                    <mxGeometry x="230" y="573" width="214" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="GTroSmMW7mxlCaIqo-ob-19" value="无防护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
+                    <mxGeometry x="567" y="583" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
