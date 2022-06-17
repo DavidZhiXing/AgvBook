@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="pApZnpiKln3CdKArK_Ym" name="取货">
-        <mxGraphModel dx="925" dy="615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+        <mxGraphModel dx="912" dy="429" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -302,6 +302,66 @@
                 </mxCell>
                 <mxCell id="GTroSmMW7mxlCaIqo-ob-19" value="无防护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="GTroSmMW7mxlCaIqo-ob-1">
                     <mxGeometry x="567" y="583" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="ApAvgAZ_foomq4yxEWJ4" name="ScanCode">
+        <mxGraphModel dx="912" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="bsWibkypkl3FjFMILwe5-0"/>
+                <mxCell id="bsWibkypkl3FjFMILwe5-1" parent="bsWibkypkl3FjFMILwe5-0"/>
+                <mxCell id="bsWibkypkl3FjFMILwe5-11" value="" style="edgeStyle=none;html=1;" edge="1" parent="bsWibkypkl3FjFMILwe5-1" source="bsWibkypkl3FjFMILwe5-2" target="bsWibkypkl3FjFMILwe5-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-2" value="等待移动到开始扫码的距离（任务特性DistanceOfStarting）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="bsWibkypkl3FjFMILwe5-1">
+                    <mxGeometry x="120" y="60" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-3" value="原地扫码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bsWibkypkl3FjFMILwe5-1">
+                    <mxGeometry x="150" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-12" value="" style="edgeStyle=none;html=1;" edge="1" parent="bsWibkypkl3FjFMILwe5-1" source="bsWibkypkl3FjFMILwe5-4" target="bsWibkypkl3FjFMILwe5-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-4" value="点亮扫码灯" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="bsWibkypkl3FjFMILwe5-1">
+                    <mxGeometry x="120" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-13" value="" style="edgeStyle=none;html=1;" edge="1" parent="bsWibkypkl3FjFMILwe5-1" source="bsWibkypkl3FjFMILwe5-5" target="bsWibkypkl3FjFMILwe5-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-5" value="开始扫码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="bsWibkypkl3FjFMILwe5-1">
+                    <mxGeometry x="120" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-14" value="" style="edgeStyle=none;html=1;" edge="1" parent="bsWibkypkl3FjFMILwe5-1" source="bsWibkypkl3FjFMILwe5-6" target="bsWibkypkl3FjFMILwe5-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-6" value="开始扫码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="bsWibkypkl3FjFMILwe5-1">
+                    <mxGeometry x="120" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-16" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bsWibkypkl3FjFMILwe5-1" source="bsWibkypkl3FjFMILwe5-8" target="bsWibkypkl3FjFMILwe5-9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="560" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="80" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-18" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="bsWibkypkl3FjFMILwe5-1" source="bsWibkypkl3FjFMILwe5-8" target="bsWibkypkl3FjFMILwe5-10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="560" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="290" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-8" value="扫码结果" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="bsWibkypkl3FjFMILwe5-1">
+                    <mxGeometry x="140" y="520" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-9" value="上传结果" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="bsWibkypkl3FjFMILwe5-1">
+                    <mxGeometry x="20" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="bsWibkypkl3FjFMILwe5-10" value="重试5次" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="bsWibkypkl3FjFMILwe5-1">
+                    <mxGeometry x="230" y="640" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
