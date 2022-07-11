@@ -10,7 +10,8 @@
 
 ### 模拟O
 - 提高AGV的功能特性
-    - 实现当非标需求
+    - 实现非标需求
+        - 实现概要设计文档
     
     无法确定时间, 不知道有什么需求, 不知道需求开发的难易程度, 但必须响应
     - 实现通用需求
@@ -39,3 +40,55 @@
     - 帮助现场人员解决配置升级等问题
     - 响应现场提出的问题, 快速定位问题原因
     - 
+
+### 网络上的OKR （SRE）
+- Reduce 50x errors from 1% down to 0.75%
+
+- improve automation
+- improve monitoring
+- improve documentation and procedures
+
+Uber:
+- **Objective: Increase Drivers in System**
+  - Increase driver base in each region by 20%
+  - Increase driver average session to 26 hours / weekly in all active regions
+  
+- **Objective: Increase Geographic Coverage of Drivers**
+  - Increase coverage of SF to 100%
+  - Increase coverage for all active cities to 75%
+  - Decrease pickup time to < 10 mins in any coverage area during peak hours of usage
+  
+- **Objective: Increase Driver Happiness**
+  - Define and measure driver happiness score
+  - Increase driver happiness score to 75th percentile
+
+Youtu:
+
+- **Increase average watch time per user**
+  - Increase total viewership time to XX minutes daily
+  - Expand native YT application to 2 new OSs
+  - Reduce video loading times by X%
+
+Sample Company's OKRs
+
+- **Company Objective: Increase brand recognition and awareness**
+  - Key Result: Increase media engagement by 20%
+  - Key Result: Launch customer referral program by September 1
+  - Key Result: Expand thought leadership by placing articles on 4 industry sites with 30000+ Alexa
+- **Marketing Team Objective: Increase social media engagement 35%**
+  - Key Result: ID & Establish relationships with 25 Instagram influencers
+  - Key Result: Respond to new Facebook comments within 3 hours
+  - Key Result: Increase followers on Facebook and Twitter by 20%
+- **Individual Objective: Increase # of social media connections 25%**
+  - Key Result: Establish presence on two new sites: LinkedIn & Instagram
+  - Key Result: Join 5 LinkedIn Groups with at least 2500 members each & comment on 10 most popular discussions in each group
+  - Key Result: Gain 100 Instagram followers by posting 5 photos/week
+
+Photo Editing App in iOS
+
+- **Objective: Become the #1 rated iOS Photo Editing App**
+  - Key Result: Conduct survey to identify 10 most-requested features
+  - Key Result: Launch 5 of the most requested features by Dec 30
+  - Key Result: Conduct 10 user tests to identify UX issues
+  - Key Result: Show 50% improvement in UX satisfaction via customer survey
+  
