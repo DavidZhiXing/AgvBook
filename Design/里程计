@@ -1,0 +1,20 @@
+### Wiki定义
+> Most odometers work by counting wheel rotations and assume that the distance traveled is the number of wheel rotations times the tire circumference, which is a standard tire diameter times pi (3.1416). If nonstandard or severely worn or underinflated tires are used then this will cause some error in the odometer. The formula is (actual distance traveled) = ( (final odometer reading) – (initial odometer reading) ) * (actual tire diameter) / (standard tire diameter). It is common for odometers to be off by several percent.[18] Odometer errors are typically proportional to speedometer errors.
+
+中文大意是：大多数里程表通过计算车轮转数来工作，并假设行驶距离是车轮转数乘以轮胎周长，即标准轮胎直径乘以pi (3.1416)。如果使用非标准或严重磨损或充气不足的轮胎，则会导致里程表出现一些错误。公式为（实际行驶距离）=（（最终里程表读数）-（初始里程表读数））*（实际轮胎直径）/（标准轮胎直径）。里程表通常会偏离几个百分点。[18] 里程表误差通常与速度表误差成正比。
+
+### 设备定义
+
+Value：为脉冲计数
+
+传动比：可以计算定向轮转一圈所需要的脉冲数；
+
+总里程：可以通过Value和传动比与总Value计算；
+
+### 定位接口
+
+主要有定向轮位姿
+
+总的移动距离
+
+定位也可以通过相机也可以计算出距离 （如何计算）
