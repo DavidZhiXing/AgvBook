@@ -1,0 +1,13 @@
+{
+  "TaskType": "Loading", 
+  "Path": [
+    1,
+    2,
+  ],
+  "IsForkPerception": true,
+  "PerceptionPosture": "1,2,3",
+  "Z": 0.5,
+  "OutZ": 0.7,
+  "CarrierTypeId": "1"
+}
+`
